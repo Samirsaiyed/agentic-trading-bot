@@ -1,5 +1,5 @@
 vector_db:
-  vdb_name: "test"
+  vdb_name: "langchain-test-index"
 
 embedding_model:
   provider: "openai"
@@ -7,7 +7,12 @@ embedding_model:
 
 retriever:
   top_k: 3
+  score_threshold: 0.5
 
 llm:
   provider: "openai"
   model_name: "gpt-4o-mini-2024-07-18"
+
+tools:
+  tavily:
+    max_result: 5
