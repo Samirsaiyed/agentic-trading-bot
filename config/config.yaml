@@ -1,5 +1,5 @@
 vector_db:
-  vdb_name: "langchain-test-index"
+  vdb_name: "trading-bot"
 
 embedding_model:
   provider: "openai"
